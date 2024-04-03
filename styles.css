@@ -13,11 +13,6 @@ html{
 .desktop{
     display: none;
 }
-@media (min-width: 1200px) {
-    .desktop{
-        display: initial;
-    }
-}
 
 
 header{
@@ -96,4 +91,96 @@ aside button.close{
     font-family: sans-serif;
     font-weight:100;
     cursor:pointer;
+}
+
+
+section{
+    height:100vh;
+    background-size: cover;
+    background-position: center center;
+}
+section .content{
+    opacity:0;
+    z-index:1;
+    position:fixed;
+    width: 100%;
+    top:10;
+    transition: opacity .3s ease;
+    height:145vh;
+    padding-top:16vh;
+    text-align:center;
+    display:grid;
+    grid-template-rows: min-content auto min-content;
+}
+
+section.active .content{
+    opacity:1;
+}
+section h1{
+    font-size:2.5rem;
+    font-weight: 500;
+}
+section a{
+    color:inherit;
+}
+.buttons{
+    display: grid ;
+    flex-direction: row;
+    width: 600px;
+    row-gap: 20px;
+    
+}
+section .buttons a{
+    display:block;
+    width: 280px;
+    background-color:#eee;
+    color:inherit;
+    padding: 12px 50px;
+    border-radius: 5px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight:500;
+}
+section .buttons a:first-child{
+    background-color:#444;
+    color:#fff;
+}
+
+.payment{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.payment span:first-child{
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+.payment span:nth-child(2){
+    font-size: small;
+    font-weight: 500;
+    margin-top: -2px;
+
+}
+
+span.discription{
+    font-size: small;
+    margin-top: 5px;
+}
+@media (min-width: 768px) {
+    section .buttons{
+        max-width: 640px;
+        margin: 0 auto;
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+        gap: 20px;
+    }
+    .button{
+
+    }
+}
+@media (min-width: 1200px) {
+    .desktop{
+        display: initial;
+    }
 }
