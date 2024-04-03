@@ -102,7 +102,7 @@ section{
 section .content{
     opacity:0;
     z-index:1;
-    position:fixed;
+    /* position:; */
     width: 100%;
     top:10;
     transition: opacity .3s ease;
@@ -132,7 +132,7 @@ section a{
 }
 section .buttons a{
     display:block;
-    width: 280px;
+    width: 270px;
     background-color:#eee;
     color:inherit;
     padding: 12px 50px;
@@ -142,7 +142,7 @@ section .buttons a{
     font-size: 12px;
     font-weight:500;
 }
-section .buttons a:first-child{
+section .buttons a:nth-child(2){
     background-color:#444;
     color:#fff;
 }
@@ -169,15 +169,13 @@ span.discription{
 }
 @media (min-width: 768px) {
     section .buttons{
-        max-width: 640px;
+        /* max-width: 60px; */
         margin: 0 auto;
         grid-template-columns: 1fr 1fr;
         justify-content: center;
         gap: 20px;
     }
-    .button{
 
-    }
 }
 @media (min-width: 1200px) {
     .desktop{
