@@ -167,6 +167,18 @@ span.discription{
     font-size: small;
     margin-top: 10px;
 }
+
+.shopNow{
+    width: 270px;
+    background-color:#eee;
+    color:inherit;
+    padding: 12px 100px;
+    border-radius: 5px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight:500;
+}
 @media (min-width: 768px) {
     section .buttons{
         /* max-width: 60px; */
@@ -182,3 +194,4 @@ span.discription{
         display: initial;
     }
 }
+
