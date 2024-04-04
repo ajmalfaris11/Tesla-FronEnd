@@ -106,7 +106,7 @@ section .content{
     width: 100%;
     top:10;
     transition: opacity .3s ease;
-    height:145vh;
+    height:140vh;
     padding-top:16vh;
     text-align:center;
     display:grid;
@@ -165,7 +165,7 @@ section .buttons a:nth-child(2){
 
 span.discription{
     font-size: small;
-    margin-top: 5px;
+    margin-top: 10px;
 }
 @media (min-width: 768px) {
     section .buttons{
