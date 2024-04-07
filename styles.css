@@ -202,9 +202,11 @@ footer a{
     font-size: small;
     font-weight: 500;
 }
+
+
 @media (min-width: 768px) {
     section .buttons{
-        /* max-width: 60px; */
+        max-width: 60px;
         margin: 0 auto;
         grid-template-columns: 1fr 1fr;
         justify-content: center;
