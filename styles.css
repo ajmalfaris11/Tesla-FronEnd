@@ -19,7 +19,7 @@ header{
     display: grid;
     grid-template-columns: auto 1fr auto;
     padding: 5px 20px;
-    position: fixed;
+    position: absolute;
     top:0;
     z-index:2;
     width: 100%;
