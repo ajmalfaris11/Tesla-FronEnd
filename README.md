@@ -4,7 +4,7 @@ Welcome to the Tesla Frontend Clone repository! This project is a clone of the f
 
 ## Demo
 
-You can view a live demo of the project [here](#) (insert your demo link here).
+You can view a live demo of the project  https://ajmalfaris11.github.io/Tesla-FronEnd/
 
 ## Features
 
