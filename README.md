@@ -11,7 +11,7 @@ You can view a live demo of the project  https://ajmalfaris11.github.io/Tesla-Fr
 - **Responsive Design:** The frontend is designed to be responsive, ensuring optimal viewing experience across various devices and screen sizes.
 - **Navigation Menu:** Interactive navigation menu that adapts to different screen sizes for easy access to different sections of the website.
 - **Product Showcase:** Display of Tesla's various models with details such as pricing, features, and specifications.
-- **Interactive Components:** Users can interact with car models, including viewing them from different angles and exploring interior options.
-- **Contact Form:** Integration of a contact form for users to get in touch with Tesla for inquiries or support.
+
+
 
 
